@@ -503,3 +503,8 @@ Delete object: <class '__main__.Resolutions'>
 	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
 	date of creation: 2024-03-11 20:44:41.579272
 
+Delete object: <class '__main__.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-11 20:50:18.477582
+

@@ -6248,4 +6248,70 @@ Delete object: <class '__main__.Performers'>
 	last name: Petrov
 	position: editor
 	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+	type doc: inside
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-11 20:50:18.477565
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
 	 email: dddddd@gggg.ss
