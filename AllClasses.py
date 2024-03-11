@@ -22,21 +22,19 @@ class Performers:
             return self
 
     def __del__(self):
-        # self.__serialize(self.__dict__.values())
-
+        self.__serialize(*self.__dict__.values())
         with io.open('activity_log/del_logs.txt', 'a') as log:
             log.write(f'Delete object: {type(self)}\n'
                       f'\tlast name: {self.last_name}\n\tposition: {self.position}\n'
                       f'\tphon number: {self.phon_number}\n\t email: {self.email}')
 
     @classmethod
-    def restore_class(cls):
+    def create_class(cls):
         return cls(*Performers.__deserialize())
 
-    # @classmethod
-    # def serialize(*args) -> None:
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
+    @staticmethod
+    def __serialize(*args) -> None:
+        args = list(args)
         args.insert(0, len(args))
 
         with io.open('serialize_file/performers.pkl', 'wb') as pk:
@@ -124,6 +122,7 @@ class Tasks:
             return self
 
     def __del__(self):
+        self.__serialize(*self.__dict__.values())
 
         with io.open('activity_log/del_logs.txt', 'a') as log:
             log.write(f'Delete object: {type(self)}\n'
@@ -132,11 +131,12 @@ class Tasks:
                       f'\tdeadline: {self.deadline}\n\n')
 
     @classmethod
-    def restore_class(cls):
+    def create_class(cls):
         return cls(*Tasks.__deserialize())
 
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
+    @staticmethod
+    def __serialize(*args) -> None:
+        args = list(args)
         args.insert(0, len(args))
 
         with io.open('serialize_file/task.pkl', 'wb') as pk:
@@ -229,6 +229,7 @@ class DomesticCorrespondent:
             return self
 
     def __del__(self):
+        self.__serialize(*self.__dict__.values())
 
         with io.open('activity_log/del_logs.txt', 'a') as log:
             log.write(f'Delete object: {type(self)}\n'
@@ -236,11 +237,12 @@ class DomesticCorrespondent:
                       f'\tposition: {self.position}\n\n')
 
     @classmethod
-    def restore_class(cls):
+    def create_class(cls):
         return cls(*DomesticCorrespondent.__deserialize())
 
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
+    @staticmethod
+    def __serialize(*args) -> None:
+        args = list(args)
         args.insert(0, len(args))
 
         with io.open('serialize_file/domestic_correspondent.pkl', 'wb') as pk:
@@ -298,6 +300,7 @@ class ExternalCorrespondents:
             return self
 
     def __del__(self):
+        self.__serialize(*self.__dict__.values())
 
         with io.open('activity_log/del_logs.txt', 'a') as log:
             log.write(f'Delete object: {type(self)}\n'
@@ -305,11 +308,12 @@ class ExternalCorrespondents:
                       f'\tname organization: {self.name_organization}\n\n')
 
     @classmethod
-    def restore_class(cls):
+    def create_class(cls):
         return cls(*ExternalCorrespondents.__deserialize())
 
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
+    @staticmethod
+    def __serialize(*args) -> None:
+        args = list(args)
         args.insert(0, len(args))
 
         with io.open('serialize_file/external_correspondents.pkl', 'wb') as pk:
@@ -378,6 +382,7 @@ class Document:
             return self
 
     def __del__(self):
+        self.__serialize(*self.__dict__.values())
 
         with io.open('activity_log/del_logs.txt', 'a') as log:
             log.write(f'Delete object: {type(self)}\n'
@@ -388,11 +393,12 @@ class Document:
                       f'\tdata of registration: {self.date_of_registration}\n\n')
 
     @classmethod
-    def restore_class(cls):
+    def create_class(cls):
         return cls(*Document.__deserialize())
 
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
+    @staticmethod
+    def __serialize(*args) -> None:
+        args = list(args)
         args.insert(0, len(args))
 
         with io.open('serialize_file/document.pkl', 'wb') as pk:
@@ -545,6 +551,7 @@ class Resolutions:
             return self
 
     def __del__(self):
+        self.__serialize(*self.__dict__.values())
 
         with io.open('activity_log/resolutions.txt', 'a') as log:
             log.write(f'Delete object: {type(self)}\n'
@@ -552,11 +559,12 @@ class Resolutions:
                       f'\tdate of creation: {self.date_of_creation}\n\n')
 
     @classmethod
-    def restore_class(cls):
+    def create_class(cls):
         return cls(*Resolutions.__deserialize())
 
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
+    @staticmethod
+    def __serialize(*args) -> None:
+        args = list(args)
         args.insert(0, len(args))
 
         with io.open('serialize_file/resolutions.pkl', 'wb') as pk:
@@ -636,17 +644,19 @@ class ExecutionController:
             return self
 
     def __del__(self):
+        self.__serialize(*self.__dict__.values())
 
         with io.open('activity_log/del_logs.txt', 'a') as log:
             log.write(f'Delete object: {type(self)}\n'
                       f'\tperformers: ({self.performers})\n\n')
 
     @classmethod
-    def restore_class(cls):
+    def create_class(cls):
         return cls(*ExecutionController.__deserialize())
 
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
+    @staticmethod
+    def __serialize(*args) -> None:
+        args = list(args)
         args.insert(0, len(args))
 
         with io.open('serialize_file/execution_controller.pkl', 'wb') as pk:
@@ -684,38 +694,31 @@ class ExecutionController:
 
 if __name__ == '__main__':
     per = Performers(last_name='Petrov', position='editor', phon_number='89052934700', email='dddddd@gggg.ss')
-    per.serialize()
     del per
-    per = Performers.restore_class()
+    per = Performers.create_class()
 
     tasks = Tasks(code='1285342', task='edit text',
                   deadline=datetime.date(2024, 6, 20), performers=per)
-    tasks.serialize()
     del tasks
-    tasks = Tasks.restore_class()
+    tasks = Tasks.create_class()
 
     dcor = DomesticCorrespondent(department='Dkz INC', position='owner')
-    dcor.serialize()
     del dcor
-    dcor = DomesticCorrespondent.restore_class()
+    dcor = DomesticCorrespondent.create_class()
 
     external_cor = ExternalCorrespondents(code='123456', name_organization='YaMi')
-    external_cor.serialize()
     del external_cor
-    external_cor = ExternalCorrespondents.restore_class()
+    external_cor = ExternalCorrespondents.create_class()
 
     doc = Document(number_doc='1423536', type_doc='inside', correspondent=dcor, task=tasks, performers=per)
-    doc.serialize()
     del doc
-    doc = Document.restore_class()
+    doc = Document.create_class()
 
     resol = Resolutions(commit='commit -m "xnj nj"', author=per)
-    resol.serialize()
     del resol
-    resol = Resolutions.restore_class()
+    resol = Resolutions.create_class()
 
     ex_contr = ExecutionController(performers=per)
-    ex_contr.serialize()
     del ex_contr
-    ex_contr = ExecutionController.restore_class()
+    ex_contr = ExecutionController.create_class()
     print()
