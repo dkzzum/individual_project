@@ -1,0 +1,4 @@
+[2024-02-29 00:40:17.411433] — task edit: old - edit text; new - edit edit
+[2024-02-29 00:40:17.411749] — code edit: old - 12985342; new - 1234
+[2024-02-29 00:40:17.411793] — deadline edit: old - 2024-03-11; new - 2024-02-19
+[2024-02-29 00:40:17.411826] — performers edit: old - (last name: Ivanov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss); new - (last name: Durov; position: owner; phon number: 1112223333; email: docuch@mail.ru)

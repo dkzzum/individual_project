@@ -1,0 +1,3 @@
+[2024-02-29 00:40:17.412823] — date of creation edit: old - 2020-08-12; new - 2024-02-19
+[2024-02-29 00:40:17.412871] — commit edit: old - commit -m -d -t; new - git commit
+[2024-02-29 00:40:17.412899] — author edit: old - (last name: Ivanov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss); new - (last name: Durov; position: owner; phon number: 1112223333; email: docuch@mail.ru)
