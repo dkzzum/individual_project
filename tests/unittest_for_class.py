@@ -1,7 +1,7 @@
 import unittest
 import datetime
 from AllClasses import (DomesticCorrespondent, ExternalCorrespondents,
-                        Performers, Resolutions, ExecutionController, Tasks, Document)
+                        Performers, Resolutions, ExecutionController, Tasks, Document, DocumentType)
 
 
 class TestClasses(unittest.TestCase):
@@ -49,17 +49,16 @@ class TestClasses(unittest.TestCase):
         performer = Performers(last_name="Williams", position="Engineer", phon_number="777777777",
                                email="williams@example.com")
         external_correspondent = ExternalCorrespondents(code="654321", name_organization="ABC Ltd")
-        document = Document(number_doc="987", type_doc="Internal", correspondent=external_correspondent,
+        document = Document(number_doc="987", correspondent=external_correspondent,
                             task=None, performers=performer, date_of_creation=datetime.datetime.now())
         self.assertEqual(document.number_doc, "987")
-        self.assertEqual(document.type_doc, "Internal")
         self.assertEqual(document.correspondent, external_correspondent)
         self.assertEqual(document.performers, performer)
 
     def test_document_task_assignment(self):
         performer = Performers(last_name="Jones", position="Manager", phon_number="333333333",
                                email="jones@example.com")
-        document = Document(number_doc="123", type_doc="External")
+        document = Document(number_doc="123")
         task = Tasks(code="456", task="Review document", deadline=datetime.datetime.now(), performers=performer)
         document.tasks = task
         self.assertEqual(document.tasks, task)
@@ -69,12 +68,12 @@ class TestClasses(unittest.TestCase):
                             email="davis@example.com")
         resolution = Resolutions(commit="Reviewed and approved", author=author,
                                  date_of_creation=datetime.datetime.now())
-        document = Document(number_doc="789", type_doc="Internal")
+        document = Document(number_doc="789")
         document.resolutions = resolution
         self.assertEqual(document.resolutions, resolution)
 
     def test_document_creation_date(self):
-        document = Document(number_doc="123", type_doc="Internal")
+        document = Document(number_doc="123")
         self.assertIsInstance(document.date_of_creation, datetime.date)
 
     def test_document_task_deadline(self):
@@ -134,23 +133,23 @@ class TestClasses(unittest.TestCase):
         performer = Performers(last_name="Williams", position="Engineer", phon_number="777777777",
                                email="williams@example.com")
         external_correspondent = ExternalCorrespondents(code="654321", name_organization="ABC Ltd")
-        document = Document(number_doc="987", type_doc="Internal", correspondent=external_correspondent,
+        document = Document(number_doc="987", correspondent=external_correspondent,
                             task=None, performers=performer, date_of_creation=datetime.datetime.now())
         document.number_doc = "123"
         self.assertEqual(document.number_doc, "123")
 
     def test_document_type_doc_change(self):
-        document = Document(number_doc="123", type_doc="External")
+        document = Document(number_doc="123")
         document.type_doc = "Internal"
         self.assertEqual(document.type_doc, "Internal")
 
     def test_document_task_assignment_none(self):
-        document = Document(number_doc="123", type_doc="External")
+        document = Document(number_doc="123")
         document.tasks = None
         self.assertIsNone(document.tasks)
 
     def test_document_resolution_assignment_none(self):
-        document = Document(number_doc="123", type_doc="Internal")
+        document = Document(number_doc="123")
         document.resolutions = None
         self.assertIsNone(document.resolutions)
 
@@ -192,16 +191,16 @@ class TestClasses(unittest.TestCase):
         self.assertEqual(tasks.task, "Review report")
 
     def test_document_creation_date_type(self):
-        document = Document(number_doc="123", type_doc="Internal")
+        document = Document(number_doc="123")
         self.assertIsInstance(document.date_of_creation, datetime.date)
 
     def test_document_correspondent_none(self):
-        document = Document(number_doc="123", type_doc="Internal")
+        document = Document(number_doc="123")
         document.correspondent = None
         self.assertIsNone(document.correspondent)
 
     def test_document_performers_none(self):
-        document = Document(number_doc="123", type_doc="Internal")
+        document = Document(number_doc="123")
         document.performers = None
         self.assertIsNone(document.performers)
 
@@ -210,6 +209,12 @@ class TestClasses(unittest.TestCase):
                                email="smith@example.com")
         tasks = Tasks(code="123", task="Analyze data", deadline=datetime.datetime.now(), performers=performer)
         self.assertIsInstance(tasks.deadline, datetime.date)
+
+    def test_document_type(self):
+        dt = DocumentType(number_doc="123", type_doc="Internal")
+        self.assertIsInstance(dt, DocumentType)
+        self.assertIsInstance(dt, Document)
+        self.assertEqual('Internal', dt.type_doc)
 
 
 if __name__ == '__main__':

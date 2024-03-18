@@ -5,3 +5,27 @@
 [2024-02-29 00:40:17.412654] — performers edit: old - (last name: Ivanov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss); new - (last name: Durov; position: owner; phon number: 1112223333; email: docuch@mail.ru)
 [2024-02-29 00:40:17.412686] — task edit: old - (code: 12985342; task: edit text; performers: Ivanov; deadline: 2024-03-11); new - (task*****)
 [2024-02-29 00:40:17.412719] — date of registration edit: old - 2020-03-03; new - 2024-05-20
+[2024-03-12 10:59:54.559049] — correspondent edit: old - (None); new - (None)
+[2024-03-12 10:59:54.560113] — number doc edit: old - 987; new - 123
+[2024-03-12 10:59:54.560735] — performers edit: old - (None); new - (None)
+[2024-03-12 10:59:54.561784] — task edit: old - (None); new - (Review document)
+[2024-03-12 11:01:00.580165] — correspondent edit: old - (None); new - (None)
+[2024-03-12 11:01:00.581032] — number doc edit: old - 987; new - 123
+[2024-03-12 11:01:00.581310] — performers edit: old - (None); new - (None)
+[2024-03-12 11:01:00.583541] — task edit: old - (None); new - (Review document)
+[2024-03-12 11:03:32.366388] — correspondent edit: old - (None); new - (None)
+[2024-03-12 11:03:32.367220] — number doc edit: old - 987; new - 123
+[2024-03-12 11:03:32.367690] — performers edit: old - (None); new - (None)
+[2024-03-12 11:03:32.369067] — task edit: old - (None); new - (Review document)
+[2024-03-12 11:04:10.820713] — correspondent edit: old - (None); new - (None)
+[2024-03-12 11:04:10.821401] — number doc edit: old - 987; new - 123
+[2024-03-12 11:04:10.821613] — performers edit: old - (None); new - (None)
+[2024-03-12 11:04:10.825403] — task edit: old - (None); new - (Review document)
+[2024-03-12 11:14:12.114390] — correspondent edit: old - (None); new - (None)
+[2024-03-12 11:14:12.115500] — number doc edit: old - 987; new - 123
+[2024-03-12 11:14:12.115831] — performers edit: old - (None); new - (None)
+[2024-03-12 11:14:12.117611] — task edit: old - (None); new - (Review document)
+[2024-03-12 13:07:30.138827] — correspondent edit: old - (None); new - (None)
+[2024-03-12 13:07:30.139728] — number doc edit: old - 987; new - 123
+[2024-03-12 13:07:30.139948] — performers edit: old - (None); new - (None)
+[2024-03-12 13:07:30.141627] — task edit: old - (None); new - (Review document)

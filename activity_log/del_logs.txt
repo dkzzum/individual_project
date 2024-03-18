@@ -6248,4 +6248,3954 @@ Delete object: <class '__main__.Performers'>
 	last name: Petrov
 	position: editor
 	phon number: 89052934700
-	 email: dddddd@gggg.ss
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-12-31
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 10:38:28.443819
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Manager
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Assistant
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: HR
+	position: Manager
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Brown; position: Developer; phon number: 555555555; email: brown@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (None)
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown2@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 123456789
+	 email: brown@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Design UI
+	performers: last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com
+	deadline: 2024-03-12 10:38:28.499384
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 10:38:28.500377
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 10:38:28.505106
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Davis
+	position: Coordinator
+	phon number: 444444444
+	 email: davis@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Jones
+	position: Manager
+	phon number: 333333333
+	 email: jones@example.comDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:41:13.742025
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:41:13.742025
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.InsideDoc'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:41:13.742043
+	data of registration: None
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:41:15.436267
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:45:10.681262
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:53:19.695327
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:53:56.304149
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:53:56.304149
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:55:18.895583
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:55:18.895583
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:55:59.942070
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:55:59.942070
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:55:59.942934
+	data of registration: None
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:56:01.610765
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:59:51.084767
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:59:51.084767
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 10:59:51.085429
+	data of registration: None
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Document'>
+	number doc: 987
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 10:59:54.558105
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 10:59:54.557167
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 10:59:54.557167
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 10:59:54.557167
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 10:59:54.560088
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 10:59:54.557167
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 789
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 10:59:54.557167
+	data of registration: None
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Davis
+	position: Coordinator
+	phon number: 444444444
+	 email: davis@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 10:59:54.557167
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (code: 456; task: Review document; performers: Jones; deadline: 2024-03-12 10:59:54.561727)
+	performers: (None)
+	date of creation: 2024-03-12 10:59:54.557167
+	data of registration: None
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Review document
+	performers: last name: Jones; position: Manager; phon number: 333333333; email: jones@example.com
+	deadline: 2024-03-12 10:59:54.561727
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Jones
+	position: Manager
+	phon number: 333333333
+	 email: jones@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-12-31
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 10:59:54.568699
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 10:59:54.557189
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 10:59:54.557167
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Manager
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Assistant
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: HR
+	position: Manager
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Brown; position: Developer; phon number: 555555555; email: brown@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (None)
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown2@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 123456789
+	 email: brown@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Design UI
+	performers: last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com
+	deadline: 2024-03-12 10:59:54.577373
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 10:59:54.577633
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 10:59:54.578854
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 10:59:54.557167
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 987
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 11:01:00.577002
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:01:00.575795
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:01:00.575795
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:01:00.575795
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 11:01:00.581014
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:01:00.575795
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 789
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:01:00.575795
+	data of registration: None
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Davis
+	position: Coordinator
+	phon number: 444444444
+	 email: davis@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:01:00.575795
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (code: 456; task: Review document; performers: Jones; deadline: 2024-03-12 11:01:00.583520)
+	performers: (None)
+	date of creation: 2024-03-12 11:01:00.575795
+	data of registration: None
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Review document
+	performers: last name: Jones; position: Manager; phon number: 333333333; email: jones@example.com
+	deadline: 2024-03-12 11:01:00.583520
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Jones
+	position: Manager
+	phon number: 333333333
+	 email: jones@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-12-31
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:01:00.587991
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:01:00.575809
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:01:00.575795
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Manager
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Assistant
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: HR
+	position: Manager
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Brown; position: Developer; phon number: 555555555; email: brown@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (None)
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown2@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 123456789
+	 email: brown@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Design UI
+	performers: last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com
+	deadline: 2024-03-12 11:01:00.593929
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:01:00.594277
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:01:00.595259
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:01:00.575795
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 987
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 11:03:32.360329
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:03:32.359538
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:03:32.359538
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:03:32.359538
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 11:03:32.367200
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:03:32.359538
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 789
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:03:32.359538
+	data of registration: None
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Davis
+	position: Coordinator
+	phon number: 444444444
+	 email: davis@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:03:32.359538
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (code: 456; task: Review document; performers: Jones; deadline: 2024-03-12 11:03:32.369050)
+	performers: (None)
+	date of creation: 2024-03-12 11:03:32.359538
+	data of registration: None
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Review document
+	performers: last name: Jones; position: Manager; phon number: 333333333; email: jones@example.com
+	deadline: 2024-03-12 11:03:32.369050
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Jones
+	position: Manager
+	phon number: 333333333
+	 email: jones@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-12-31
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:03:32.373731
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:03:32.359551
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:03:32.359538
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Manager
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Assistant
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: HR
+	position: Manager
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Brown; position: Developer; phon number: 555555555; email: brown@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (None)
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown2@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 123456789
+	 email: brown@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Design UI
+	performers: last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com
+	deadline: 2024-03-12 11:03:32.382931
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:03:32.383164
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:03:32.383933
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:03:32.359538
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 987
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 11:04:10.817350
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:04:10.816585
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:04:10.816585
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:04:10.816585
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 11:04:10.821386
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:04:10.816585
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 789
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:04:10.816585
+	data of registration: None
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Davis
+	position: Coordinator
+	phon number: 444444444
+	 email: davis@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:04:10.816585
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (code: 456; task: Review document; performers: Jones; deadline: 2024-03-12 11:04:10.825380)
+	performers: (None)
+	date of creation: 2024-03-12 11:04:10.816585
+	data of registration: None
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Review document
+	performers: last name: Jones; position: Manager; phon number: 333333333; email: jones@example.com
+	deadline: 2024-03-12 11:04:10.825380
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Jones
+	position: Manager
+	phon number: 333333333
+	 email: jones@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-12-31
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:04:10.831374
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:04:10.816598
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:04:10.816585
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Manager
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Assistant
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: HR
+	position: Manager
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Brown; position: Developer; phon number: 555555555; email: brown@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (None)
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown2@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 123456789
+	 email: brown@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Design UI
+	performers: last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com
+	deadline: 2024-03-12 11:04:10.840018
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:04:10.840411
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:04:10.840987
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:04:10.816585
+	data of registration: None
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 11:06:03.809209
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.Document'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 11:06:03.809209
+	data of registration: None
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 11:06:03.810577
+	data of registration: None
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Document'>
+	number doc: 987
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 11:14:12.111570
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:14:12.110877
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:14:12.110877
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:14:12.110877
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 11:14:12.115475
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:14:12.110877
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 789
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:14:12.110877
+	data of registration: None
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Davis
+	position: Coordinator
+	phon number: 444444444
+	 email: davis@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:14:12.110877
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (code: 456; task: Review document; performers: Jones; deadline: 2024-03-12 11:14:12.117587)
+	performers: (None)
+	date of creation: 2024-03-12 11:14:12.110877
+	data of registration: None
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Review document
+	performers: last name: Jones; position: Manager; phon number: 333333333; email: jones@example.com
+	deadline: 2024-03-12 11:14:12.117587
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Jones
+	position: Manager
+	phon number: 333333333
+	 email: jones@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-12-31
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:14:12.121282
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:14:12.110892
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:14:12.110877
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Manager
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Assistant
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: HR
+	position: Manager
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Brown; position: Developer; phon number: 555555555; email: brown@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (None)
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown2@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 123456789
+	 email: brown@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Design UI
+	performers: last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com
+	deadline: 2024-03-12 11:14:12.127343
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:14:12.127762
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 11:14:12.128376
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 11:14:12.110877
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 987
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 13:07:30.135545
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 13:07:30.134449
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 13:07:30.134449
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 13:07:30.134449
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (code: 654321; name org: ABC Ltd)
+	task: (None)
+	performers: (last name: Williams; position: Engineer; phon number: 777777777; email: williams@example.com)
+	date of creation: 2024-03-12 13:07:30.139709
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Williams
+	position: Engineer
+	phon number: 777777777
+	 email: williams@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 13:07:30.134449
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 789
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 13:07:30.134449
+	data of registration: None
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Davis
+	position: Coordinator
+	phon number: 444444444
+	 email: davis@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 13:07:30.134449
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (code: 456; task: Review document; performers: Jones; deadline: 2024-03-12 13:07:30.141610)
+	performers: (None)
+	date of creation: 2024-03-12 13:07:30.134449
+	data of registration: None
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Review document
+	performers: last name: Jones; position: Manager; phon number: 333333333; email: jones@example.com
+	deadline: 2024-03-12 13:07:30.141610
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Jones
+	position: Manager
+	phon number: 333333333
+	 email: jones@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-12-31
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 13:07:30.145521
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 13:07:30.134467
+	data of registration: None
+
+Delete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 13:07:30.134449
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Manager
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Finance
+	position: Assistant
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: HR
+	position: Manager
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Brown; position: Developer; phon number: 555555555; email: brown@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (None)
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: ABC Ltd
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 654321
+	name organization: XYZ Corp
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 555555555
+	 email: brown2@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Brown
+	position: Developer
+	phon number: 123456789
+	 email: brown@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Performers'>
+	last name: Johnson
+	position: Manager
+	phon number: 987654321
+	 email: johnson@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Design UI
+	performers: last name: Clark; position: Designer; phon number: 999999999; email: clark@example.com
+	deadline: 2024-03-12 13:07:30.151739
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Clark
+	position: Designer
+	phon number: 999999999
+	 email: clark@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 456
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 13:07:30.151936
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Tasks'>
+	code: 123
+	task: Analyze data
+	performers: last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com
+	deadline: 2024-03-12 13:07:30.152320
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Smith
+	position: Analyst
+	phon number: 123456789
+	 email: smith@example.comDelete object: <class 'AllClasses.Document'>
+	number doc: 123
+®
+	correspondent: (None)
+	task: (None)
+	performers: (None)
+	date of creation: 2024-03-12 13:07:30.134449
+	data of registration: None
+
+Delete object: <class '__main__.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class '__main__.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class '__main__.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class '__main__.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class '__main__.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class '__main__.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:07:34.315664
+	data of registration: None
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:36:22.774331
+	data of registration: None
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:40:04.368277
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:40:09.956580
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:40:36.536771
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:40:37.403070
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:42:03.452332
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:44:06.457489
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:48:11.408466
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:48:42.521234
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:49:12.284474
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:50:19.759453
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:56:14.006632
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:57:33.782036
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:58:05.373644
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:58:17.939826
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:58:50.163869
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:59:17.121169
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 13:59:17.121169)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 13:59:43.384280
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 14:01:55.567221
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 14:01:55.567221)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 14:01:57.357136
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 14:01:57.357136)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 14:02:06.966819
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 14:02:06.966819)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 14:04:11.460393
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 14:04:11.460393)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 14:04:28.240872
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 14:04:28.240872)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 14:07:30.504737
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 14:07:30.504737)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 14:07:39.083061
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 14:08:15.548004
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 14:08:15.548004)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 19:58:53.955349
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 19:58:53.955349)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 19:59:41.881246
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 19:59:41.881246)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 20:00:01.881772
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 20:00:01.881772)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 20:00:09.958905
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 20:00:09.958905)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.ExternalCorrespondents'>
+	code: 123456
+	name organization: YaMi
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (department: Dkz INC; position: owner)
+	task: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-12 20:00:15.441128
+	data of registration: None
+
+Delete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+
+Delete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Tasks'>
+	code: 1285342
+	task: edit text
+	performers: last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss
+	deadline: 2024-06-20
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DocumentType'>
+	number doc: 1423536
+®
+	correspondent: (code: 1285342; task: edit text; performers: Petrov; deadline: 2024-06-20)
+	task: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	performers: (2024-03-12 20:00:15.441128)
+	date of creation: None
+	data of registration: inside
+
+Delete object: <class 'AllClasses.ExecutionController'>
+	performers: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+
+Delete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.Performers'>
+	last name: Petrov
+	position: editor
+	phon number: 89052934700
+	 email: dddddd@gggg.ssDelete object: <class 'AllClasses.DomesticCorrespondent'>
+	department: Dkz INC
+	position: owner
+

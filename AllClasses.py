@@ -1,4 +1,3 @@
-from typing import Any
 import datetime
 import pickle
 import io
@@ -28,30 +27,6 @@ class Performers:
             log.write(f'Delete object: {type(self)}\n'
                       f'\tlast name: {self.last_name}\n\tposition: {self.position}\n'
                       f'\tphon number: {self.phon_number}\n\t email: {self.email}')
-
-    @classmethod
-    def restore_class(cls):
-        return cls(*Performers.__deserialize())
-
-    # @classmethod
-    # def serialize(*args) -> None:
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
-        args.insert(0, len(args))
-
-        with io.open('serialize_file/performers.pkl', 'wb') as pk:
-            for data in args:
-                pickle.dump(data, pk)
-
-    @staticmethod
-    def __deserialize() -> list[str | int]:
-        data = []
-        with io.open('serialize_file/performers.pkl', 'rb') as pk:
-            lens = pickle.load(pk)
-            for i in range(lens):
-                data.append(pickle.load(pk))
-
-        return data
 
     @property
     def last_name(self) -> str:
@@ -130,31 +105,6 @@ class Tasks:
                       f'\tcode: {self.code}\n\ttask: {self.tasks}\n'
                       f'\tperformers: {self.performers}\n'
                       f'\tdeadline: {self.deadline}\n\n')
-
-    @classmethod
-    def restore_class(cls):
-        return cls(*Tasks.__deserialize())
-
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
-        args.insert(0, len(args))
-
-        with io.open('serialize_file/task.pkl', 'wb') as pk:
-            for data in args:
-                if isinstance(data, Performers):
-                    pickle.dump(data.__str__(False), pk)
-                else:
-                    pickle.dump(str(data), pk)
-
-    @staticmethod
-    def __deserialize() -> list[str | int]:
-        data = []
-        with io.open('serialize_file/task.pkl', 'rb') as pk:
-            lens = int(pickle.load(pk))
-            for i in range(lens):
-                data.append(pickle.load(pk))
-
-        return data
 
     @property
     def code(self) -> str | int:
@@ -235,28 +185,6 @@ class DomesticCorrespondent:
                       f'\tdepartment: {self.department}\n'
                       f'\tposition: {self.position}\n\n')
 
-    @classmethod
-    def restore_class(cls):
-        return cls(*DomesticCorrespondent.__deserialize())
-
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
-        args.insert(0, len(args))
-
-        with io.open('serialize_file/domestic_correspondent.pkl', 'wb') as pk:
-            for data in args:
-                pickle.dump(data, pk)
-
-    @staticmethod
-    def __deserialize() -> list[str | int]:
-        data = []
-        with io.open('serialize_file/domestic_correspondent.pkl', 'rb') as pk:
-            lens = pickle.load(pk)
-            for i in range(lens):
-                data.append(pickle.load(pk))
-
-        return data
-
     @property
     def department(self) -> str:
         return self.__department
@@ -304,28 +232,6 @@ class ExternalCorrespondents:
                       f'\tcode: {self.code}\n'
                       f'\tname organization: {self.name_organization}\n\n')
 
-    @classmethod
-    def restore_class(cls):
-        return cls(*ExternalCorrespondents.__deserialize())
-
-    def serialize(self) -> None:
-        args = list(self.__dict__.values())
-        args.insert(0, len(args))
-
-        with io.open('serialize_file/external_correspondents.pkl', 'wb') as pk:
-            for data in args:
-                pickle.dump(data, pk)
-
-    @staticmethod
-    def __deserialize() -> list[str | int]:
-        data = []
-        with io.open('serialize_file/external_correspondents.pkl', 'rb') as pk:
-            lens = pickle.load(pk)
-            for i in range(lens):
-                data.append(pickle.load(pk))
-
-        return data
-
     @property
     def code(self) -> int | str:
         return self.__code
@@ -356,13 +262,12 @@ class ExternalCorrespondents:
 class Document:
     """ Документы """
 
-    def __init__(self, number_doc: str | int, type_doc: str,
+    def __init__(self, number_doc: str | int,
                  correspondent: DomesticCorrespondent | ExternalCorrespondents = None,
                  task: Tasks = None, performers: Performers = None,
                  date_of_creation: datetime.datetime | datetime.date | str = datetime.datetime.now(),
                  date_of_registration: datetime.datetime | datetime.date | str | None = None):
         self.__number_doc = number_doc
-        self.__type_doc = type_doc
         self.__correspondent = correspondent
         self.__tasks = task
         self.__performers = performers
@@ -370,18 +275,15 @@ class Document:
         self.__date_of_registration = date_of_registration
 
     def __str__(self, flag: bool = True):
-        if flag:
-            return (f'number doc: {self.number_doc}; type doc: {self.type_doc};\n'
-                    f'correspondent: ({self.correspondent});\ntasks: ({self.tasks});\n'
-                    f'performers: ({self.performers});\ndata of creation: {str(self.date_of_creation)}')
-        else:
-            return self
+        return (f'number doc: {self.number_doc};\n'
+                f'correspondent: ({self.correspondent});\ntasks: ({self.tasks});\n'
+                f'performers: ({self.performers});\ndata of creation: {str(self.date_of_creation)}')
 
     def __del__(self):
 
         with io.open('activity_log/del_logs.txt', 'a') as log:
             log.write(f'Delete object: {type(self)}\n'
-                      f'\tnumber doc: {self.number_doc}\n\ttype doc: {self.type_doc}\n'
+                      f'\tnumber doc: {self.number_doc}\n®\n'
                       f'\tcorrespondent: ({self.correspondent})\n\ttask: ({self.tasks})\n'
                       f'\tperformers: ({self.performers})\n'
                       f'\tdate of creation: {self.date_of_creation}\n'
@@ -389,13 +291,13 @@ class Document:
 
     @classmethod
     def restore_class(cls):
-        return cls(*Document.__deserialize())
+        return [*Document.__deserialize()]
 
-    def serialize(self) -> None:
+    def serialize(self, file: str = 'document.pkl') -> None:
         args = list(self.__dict__.values())
         args.insert(0, len(args))
 
-        with io.open('serialize_file/document.pkl', 'wb') as pk:
+        with io.open(f'serialize_file/{file}', 'wb') as pk:
             for data in args:
                 if isinstance(data, (DomesticCorrespondent, ExternalCorrespondents, Tasks, Performers)):
                     pickle.dump(data.__str__(False), pk)
@@ -403,27 +305,14 @@ class Document:
                     pickle.dump(str(data), pk)
 
     @staticmethod
-    def __deserialize() -> list[str | int]:
+    def __deserialize(file: str = 'document.pkl') -> list[str | int]:
         data = []
-        with io.open('serialize_file/document.pkl', 'rb') as pk:
+        with io.open(f'serialize_file/{file}', 'rb') as pk:
             lens = int(pickle.load(pk))
             for i in range(lens):
                 data.append(pickle.load(pk))
 
         return data
-
-    @property
-    def type_doc(self) -> str:
-        return self.__type_doc
-
-    @type_doc.setter
-    def type_doc(self, types: str):
-        with io.open('activity_log/document_log.txt', 'a') as log:
-            log.write(
-                f'[{datetime.datetime.now()}] — type doc edit: old - {self.__type_doc}; '
-                f'new - {types}\n')
-
-        self.__type_doc = types
 
     @property
     def correspondent(self) -> ExternalCorrespondents | DomesticCorrespondent:
@@ -523,6 +412,42 @@ class Document:
         self.__date_of_registration = new_date
 
 
+class DocumentType(Document):
+    """ Основной класс с документами """
+    def __init__(self, number_doc: str | int, type_doc: str,
+                 correspondent: DomesticCorrespondent | ExternalCorrespondents = None,
+                 task: Tasks = None, performers: Performers = None,
+                 date_of_creation: datetime.datetime | datetime.date | str = datetime.datetime.now(),
+                 date_of_registration: datetime.datetime | datetime.date | str | None = None):
+        super().__init__(number_doc, correspondent, task, performers, date_of_creation, date_of_registration)
+        self.__type_doc = type_doc
+
+    @classmethod
+    def restore_class(cls):
+        return DocumentType(*DocumentType.__deserialize())
+
+    @staticmethod
+    def __deserialize(file: str = 'document.pkl') -> list[str | int]:
+        data = []
+        with io.open(f'serialize_file/{file}', 'rb') as pk:
+            lens = int(pickle.load(pk))
+            for i in range(lens):
+                data.append(pickle.load(pk))
+
+        return data
+
+    def serialize(self, file: str = 'document.pkl') -> None:
+        super().serialize(file)
+
+    @property
+    def type_doc(self):
+        return self.__type_doc
+
+    @type_doc.setter
+    def type_doc(self, type_doc):
+        self.__type_doc = type_doc
+
+
 class Resolutions:
     """ Резолюции """
 
@@ -559,12 +484,12 @@ class Resolutions:
         args = list(self.__dict__.values())
         args.insert(0, len(args))
 
-        with io.open('serialize_file/resolutions.pkl', 'wb') as pk:
+        with io.open(f'serialize_file/resolutions.pkl', 'wb') as pk:
             for data in args:
-                if isinstance(data, Performers):
+                if isinstance(data, (DomesticCorrespondent, ExternalCorrespondents, Tasks, Performers)):
                     pickle.dump(data.__str__(False), pk)
                 else:
-                    pickle.dump(data, pk)
+                    pickle.dump(str(data), pk)
 
     @staticmethod
     def __deserialize() -> list[str | int]:
@@ -649,18 +574,18 @@ class ExecutionController:
         args = list(self.__dict__.values())
         args.insert(0, len(args))
 
-        with io.open('serialize_file/execution_controller.pkl', 'wb') as pk:
+        with io.open(f'serialize_file/execution_controller.pkl', 'wb') as pk:
             for data in args:
-                if isinstance(data, Performers):
+                if isinstance(data, (DomesticCorrespondent, ExternalCorrespondents, Tasks, Performers)):
                     pickle.dump(data.__str__(False), pk)
                 else:
-                    pickle.dump(data, pk)
+                    pickle.dump(str(data), pk)
 
     @staticmethod
     def __deserialize() -> list[str | int]:
         data = []
         with io.open('serialize_file/execution_controller.pkl', 'rb') as pk:
-            lens = pickle.load(pk)
+            lens = int(pickle.load(pk))
             for i in range(lens):
                 data.append(pickle.load(pk))
 
@@ -683,39 +608,4 @@ class ExecutionController:
 
 
 if __name__ == '__main__':
-    per = Performers(last_name='Petrov', position='editor', phon_number='89052934700', email='dddddd@gggg.ss')
-    per.serialize()
-    del per
-    per = Performers.restore_class()
-
-    tasks = Tasks(code='1285342', task='edit text',
-                  deadline=datetime.date(2024, 6, 20), performers=per)
-    tasks.serialize()
-    del tasks
-    tasks = Tasks.restore_class()
-
-    dcor = DomesticCorrespondent(department='Dkz INC', position='owner')
-    dcor.serialize()
-    del dcor
-    dcor = DomesticCorrespondent.restore_class()
-
-    external_cor = ExternalCorrespondents(code='123456', name_organization='YaMi')
-    external_cor.serialize()
-    del external_cor
-    external_cor = ExternalCorrespondents.restore_class()
-
-    doc = Document(number_doc='1423536', type_doc='inside', correspondent=dcor, task=tasks, performers=per)
-    doc.serialize()
-    del doc
-    doc = Document.restore_class()
-
-    resol = Resolutions(commit='commit -m "xnj nj"', author=per)
-    resol.serialize()
-    del resol
-    resol = Resolutions.restore_class()
-
-    ex_contr = ExecutionController(performers=per)
-    ex_contr.serialize()
-    del ex_contr
-    ex_contr = ExecutionController.restore_class()
-    print()
+    pass
