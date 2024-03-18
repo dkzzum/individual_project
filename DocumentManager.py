@@ -12,11 +12,11 @@ class DocumentManager:
         self.correspondents: dict[str, ExternalCorrespondents | DomesticCorrespondent] = {}
 
     @staticmethod
-    def serialize(documents: DocumentType, resolutions: Resolutions,
+    def serialize(document: DocumentType, resolution: Resolutions,
                   execution_controller: ExecutionController) -> None:
 
-        documents.serialize()
-        resolutions.serialize()
+        document.serialize()
+        resolution.serialize()
         execution_controller.serialize()
 
     @staticmethod
@@ -30,6 +30,11 @@ class DocumentManager:
         performer = document.performers
         task = document.tasks
         correspondent = document.correspondent
+
+        # Настраиваем новую связь между исполнителем,
+        # контролером и резолюциями
+        controller.performers = performer
+        resolutions.author = performer
         return [performer, task, correspondent, document, controller, resolutions]
 
 
@@ -51,6 +56,7 @@ if __name__ == '__main__':
 
     document = DocumentType(number_doc='1423536', type_doc='inside',
                             correspondent=dcor, task=tasks, performers=performers)
+
     doc_manager.serialize(document, resolution, ex_contr)
     del performers, tasks, dcor, external_cor, resolution, ex_contr, document
 

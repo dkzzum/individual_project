@@ -414,12 +414,13 @@ class Document:
 
 class DocumentType(Document):
     """ Основной класс с документами """
-    def __init__(self, number_doc: str | int, type_doc: str,
+    def __init__(self, number_doc: str | int,
                  correspondent: DomesticCorrespondent | ExternalCorrespondents = None,
                  task: Tasks = None, performers: Performers = None,
                  date_of_creation: datetime.datetime | datetime.date | str = datetime.datetime.now(),
-                 date_of_registration: datetime.datetime | datetime.date | str | None = None):
-        super().__init__(number_doc, correspondent, task, performers, date_of_creation, date_of_registration)
+                 date_of_registration: datetime.datetime | datetime.date | str | None = None,
+                 type_doc: str = 'Inside'):
+        super().__init__(number_doc, task, correspondent, performers, date_of_creation, date_of_registration)
         self.__type_doc = type_doc
 
     @classmethod
