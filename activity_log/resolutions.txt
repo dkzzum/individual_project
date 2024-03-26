@@ -948,3 +948,243 @@ Delete object: <class 'AllClasses.Resolutions'>
 	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
 	date of creation: 2024-03-12 20:00:15.441147
 
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 11:57:46.654634
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 11:57:52.874658
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 12:07:36.676901
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 12:09:37.023821
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 12:09:37.023821
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 12:10:01.136168
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 12:10:08.886336
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 12:11:04.697426
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 13:09:52.141972
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 13:11:18.370518
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 13:11:18.370518
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 13:11:19.641918
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 13:11:40.798108
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 13:11:40.798108
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 13:11:54.032939
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 13:16:50.577446
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Ivanov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 13:16:50.577446
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 13:18:30.187963
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 18:20:55.845578
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Ivanov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-18 18:20:55.845578
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-19 09:37:01.194793
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Ivanov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-19 09:37:01.194793
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Petrov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-19 09:37:05.087173
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: commit -m "xnj nj"
+	author: (last name: Ivanov; position: editor; phon number: 89052934700; email: dddddd@gggg.ss)
+	date of creation: 2024-03-19 09:37:05.087173
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:16:02.196357
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed
+	author: (last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com)
+	date of creation: 2024-03-26 10:16:02.197103
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:16:02.197594
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed and approved
+	author: (last name: Davis; position: Coordinator; phon number: 444444444; email: davis@example.com)
+	date of creation: 2024-03-26 10:16:02.187331
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:19:46.562786
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed
+	author: (last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com)
+	date of creation: 2024-03-26 10:19:46.565393
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:19:46.566148
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed and approved
+	author: (last name: Davis; position: Coordinator; phon number: 444444444; email: davis@example.com)
+	date of creation: 2024-03-26 10:19:46.551869
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:20:15.236997
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed
+	author: (last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com)
+	date of creation: 2024-03-26 10:20:15.238720
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:20:15.239122
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed and approved
+	author: (last name: Davis; position: Coordinator; phon number: 444444444; email: davis@example.com)
+	date of creation: 2024-03-26 10:20:15.222584
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed and approved
+	author: (last name: Davis; position: Coordinator; phon number: 444444444; email: davis@example.com)
+	date of creation: 2024-03-26 10:20:26.501997
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:20:26.513353
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed
+	author: (last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com)
+	date of creation: 2024-03-26 10:20:26.514002
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:20:26.514873
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed and approved
+	author: (last name: Davis; position: Coordinator; phon number: 444444444; email: davis@example.com)
+	date of creation: 2024-03-26 10:21:45.494794
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:21:45.507399
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed
+	author: (last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com)
+	date of creation: 2024-03-26 10:21:45.507568
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:21:45.510693
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed and approved
+	author: (last name: Davis; position: Coordinator; phon number: 444444444; email: davis@example.com)
+	date of creation: 2024-03-26 10:48:16.339010
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:48:16.352230
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Reviewed
+	author: (last name: Smith; position: Analyst; phon number: 123456789; email: smith@example.com)
+	date of creation: 2024-03-26 10:48:16.352531
+
+Delete object: <class 'AllClasses.Resolutions'>
+	commit: Approved
+	author: (last name: Johnson; position: Manager; phon number: 987654321; email: johnson@example.com)
+	date of creation: 2024-03-26 10:48:16.353124
+

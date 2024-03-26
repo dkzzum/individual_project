@@ -1,3 +1,4 @@
+from raise_data import *
 import datetime
 import pickle
 import io
@@ -11,7 +12,6 @@ class Performers:
         self.__position = position
         self.__phon_number = phon_number
         self.__email = email
-        # self.__old_name = None
 
     def __str__(self, flag: bool = True):
         if flag:
@@ -26,7 +26,7 @@ class Performers:
         with io.open('activity_log/del_logs.txt', 'a') as log:
             log.write(f'Delete object: {type(self)}\n'
                       f'\tlast name: {self.last_name}\n\tposition: {self.position}\n'
-                      f'\tphon number: {self.phon_number}\n\t email: {self.email}')
+                      f'\tphon number: {self.phon_number}\n\temail: {self.email}')
 
     @property
     def last_name(self) -> str:
@@ -85,10 +85,11 @@ class Tasks:
     """ Задачи """
 
     def __init__(self, code: str, task: str, performers: Performers = None,
-                 deadline: datetime.date | datetime.datetime | str = datetime.datetime.now()):
+                 deadline: datetime.date | datetime.datetime | str = datetime.datetime.now().date()):
         self.__code = code
         self.__tasks = task
-        self.__performers = performers
+        if RaiseClasses.isinstance(performers, Performers):
+            self.__performers = performers
         self.__deadline = deadline
 
     def __str__(self, flag: bool = True):
@@ -265,7 +266,7 @@ class Document:
     def __init__(self, number_doc: str | int,
                  correspondent: DomesticCorrespondent | ExternalCorrespondents = None,
                  task: Tasks = None, performers: Performers = None,
-                 date_of_creation: datetime.datetime | datetime.date | str = datetime.datetime.now(),
+                 date_of_creation: datetime.datetime | datetime.date | str = datetime.datetime.now().date(),
                  date_of_registration: datetime.datetime | datetime.date | str | None = None):
         self.__number_doc = number_doc
         self.__correspondent = correspondent
@@ -358,19 +359,14 @@ class Document:
         return self.__date_of_creation
 
     @date_of_creation.setter
-    def date_of_creation(self, date_of_creation: datetime.datetime | datetime.date | str):
-        if isinstance(date_of_creation, datetime.datetime):
-            get_date = list(map(int, str(date_of_creation)[:10].split('-')))
-        else:
-            get_date = list(map(int, str(date_of_creation).split('-')))
+    def date_of_creation(self, date_of_creation: datetime.date):
 
-        new_date = datetime.date(get_date[0], get_date[1], get_date[2])
         with io.open('activity_log/document_log.txt', 'a') as log:
             log.write(
                 f'[{datetime.datetime.now()}] — date of creation edit: old - {self.__date_of_creation}; '
-                f'new - {new_date}\n')
+                f'new - {str(date_of_creation)}\n')
 
-        self.__date_of_creation = new_date
+        self.__date_of_creation = date_of_creation
 
     @property
     def number_doc(self) -> str | int:
@@ -417,7 +413,7 @@ class DocumentType(Document):
     def __init__(self, number_doc: str | int,
                  correspondent: DomesticCorrespondent | ExternalCorrespondents = None,
                  task: Tasks = None, performers: Performers = None,
-                 date_of_creation: datetime.datetime | datetime.date | str = datetime.datetime.now(),
+                 date_of_creation: datetime.datetime | datetime.date | str = datetime.datetime.now().date(),
                  date_of_registration: datetime.datetime | datetime.date | str | None = None,
                  type_doc: str = 'Inside'):
         super().__init__(number_doc, task, correspondent, performers, date_of_creation, date_of_registration)
@@ -453,13 +449,11 @@ class Resolutions:
     """ Резолюции """
 
     def __init__(self, commit: str, author: Performers,
-                 date_of_creation: datetime.datetime | datetime.date | str = datetime.datetime.now()):
+                 date_of_creation: datetime.datetime | datetime.date | str = datetime.datetime.now().date()):
         self.__commit = commit
 
-        if isinstance(author, Performers):
+        if RaiseClasses.isinstance(author, Performers):
             self.__author = author
-        else:
-            raise TypeError('performers must be an instance of Performers')
 
         self.__date_of_creation = date_of_creation
 
@@ -531,19 +525,13 @@ class Resolutions:
         return self.__date_of_creation
 
     @date_of_creation.setter
-    def date_of_creation(self, date_of_creation: datetime.datetime | datetime.date | str):
-        if isinstance(date_of_creation, datetime.datetime):
-            get_date = list(map(int, str(date_of_creation)[:10].split('-')))
-        else:
-            get_date = list(map(int, str(date_of_creation).split('-')))
-
-        new_date = datetime.date(get_date[0], get_date[1], get_date[2])
+    def date_of_creation(self, date_of_creation: datetime.date):
 
         with io.open('activity_log/resolutions_log.txt', 'a') as log:
             log.write(f'[{datetime.datetime.now()}] — date of creation edit: old - {self.__date_of_creation}; '
-                      f'new - {str(new_date)}\n')
+                      f'new - {str(date_of_creation)}\n')
 
-        self.__date_of_creation = new_date
+        self.__date_of_creation = date_of_creation
 
 
 class ExecutionController:

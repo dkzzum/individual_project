@@ -26,7 +26,7 @@ class DocumentManager:
         document = DocumentType.restore_class()
         resolutions = Resolutions.restore_class()
         controller = ExecutionController.restore_class()
-        print(document.__dict__)
+        # print(document.__dict__)
         performer = document.performers
         task = document.tasks
         correspondent = document.correspondent
