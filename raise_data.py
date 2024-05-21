@@ -12,7 +12,7 @@ class RaiseClasses:
 
 class CheckingDateCreate:
     def __init__(self):
-        self.now = datetime.datetime.now().date()
+        self.now = datetime.now().date()
 
     def __get__(self, instance, owner):
         return instance.__date_of_creation

@@ -1,11 +1,16 @@
 from raise_data import *
+from decorators import timeit, count_calls
 import datetime
 import pickle
 import io
 
 
 class Performers:
-    """ Исполнители """
+    """
+        Исполнитель
+        Имеет такие атрибуты как:
+        Фамлиля, Должность, Номер телефона, Почта.
+    """
 
     def __init__(self, last_name: str, position: str, phon_number: int | str, email: str):
         self.__last_name = last_name
@@ -28,11 +33,26 @@ class Performers:
                       f'\tlast name: {self.last_name}\n\tposition: {self.position}\n'
                       f'\tphon number: {self.phon_number}\n\temail: {self.email}')
 
+    def __add__(self, other: 'Performers') -> str:
+        """Concatenate the last names of two performers."""
+        return self.last_name + other.last_name
+
+    def __sub__(self, other: 'Performers') -> int:
+        """Calculate the difference in phone numbers between two performers."""
+        if isinstance(self.phon_number, (int, str)) and isinstance(other.phon_number, (int, str)):
+            return int(self.phon_number) - int(other.phon_number)
+        else:
+            raise TypeError("Phone numbers must be integers for subtraction.")
+
     @property
+    @timeit
+    @count_calls
     def last_name(self) -> str:
         return self.__last_name
 
     @last_name.setter
+    @timeit
+    @count_calls
     def last_name(self, last_name: str):
         with io.open('activity_log/performers_log.txt', 'a') as log:
             log.write(
@@ -42,10 +62,14 @@ class Performers:
         self.__last_name = last_name
 
     @property
+    @timeit
+    @count_calls
     def position(self) -> str:
         return self.__position
 
     @position.setter
+    @timeit
+    @count_calls
     def position(self, position: str):
         with io.open('activity_log/performers_log.txt', 'a') as log:
             log.write(
@@ -55,10 +79,14 @@ class Performers:
         self.__position = position
 
     @property
+    @timeit
+    @count_calls
     def phon_number(self) -> int | str:
         return self.__phon_number
 
     @phon_number.setter
+    @timeit
+    @count_calls
     def phon_number(self, phon_number: int | str):
         with io.open('activity_log/performers_log.txt', 'a') as log:
             log.write(
@@ -68,10 +96,14 @@ class Performers:
         self.__phon_number = phon_number
 
     @property
+    @timeit
+    @count_calls
     def email(self) -> str:
         return self.__email
 
     @email.setter
+    @timeit
+    @count_calls
     def email(self, email: str):
         with io.open('activity_log/performers_log.txt', 'a') as log:
             log.write(
@@ -82,14 +114,18 @@ class Performers:
 
 
 class Tasks:
-    """ Задачи """
+    """
+        Задачи
+        Имеет такие атрибуты как:
+        Код задачи, описание задачи, исполнителя, срок сдачи.
+    """
 
     def __init__(self, code: str, task: str, performers: Performers = None,
                  deadline: datetime.date | datetime.datetime | str = datetime.datetime.now().date()):
         self.__code = code
         self.__tasks = task
-        if RaiseClasses.isinstance(performers, Performers):
-            self.__performers = performers
+        # if Performers is None or RaiseClasses.isinstance(performers, Performers):
+        self.__performers = performers
         self.__deadline = deadline
 
     def __str__(self, flag: bool = True):
@@ -106,6 +142,14 @@ class Tasks:
                       f'\tcode: {self.code}\n\ttask: {self.tasks}\n'
                       f'\tperformers: {self.performers}\n'
                       f'\tdeadline: {self.deadline}\n\n')
+
+    def __add__(self, other: 'Tasks') -> str:
+        """Concatenate the descriptions of two tasks."""
+        return self.tasks + other.tasks
+
+    def __sub__(self, other: 'Tasks') -> int:
+        """Calculate the difference in code lengths between two tasks."""
+        return int(self.code) - int(other.code)
 
     @property
     def code(self) -> str | int:
@@ -167,7 +211,11 @@ class Tasks:
 
 
 class DomesticCorrespondent:
-    """ Внутренние корреспонденты """
+    """
+        Внутренние корреспонденты
+        имеет такие атрибуты как:
+        Депортамент, Позиция.
+    """
 
     def __init__(self, department: str, position: str):
         self.__department = department
@@ -214,7 +262,11 @@ class DomesticCorrespondent:
 
 
 class ExternalCorrespondents:
-    """ Внешние корреспонденты """
+    """
+        Внешние корреспонденты
+        имеет такие атрибуты как:
+        Код, Название организации.
+    """
 
     def __init__(self, code: int | str, name_organization: str):
         self.__code = code
@@ -261,7 +313,11 @@ class ExternalCorrespondents:
 
 
 class Document:
-    """ Документы """
+    """
+        Документы
+        Имеет такие атрибуты как:
+        Номер документа, Корриспондент, Задачи, Исполнитель, Дата создания, Дата регистрации.
+    """
 
     def __init__(self, number_doc: str | int,
                  correspondent: DomesticCorrespondent | ExternalCorrespondents = None,
@@ -407,9 +463,47 @@ class Document:
 
         self.__date_of_registration = new_date
 
+    def check_task_deadlines(self, reference_date=None):
+        """ Проверка задач на просроченные сроки исполнения. """
+        if reference_date is None:
+            reference_date = datetime.datetime.now().date()
+        overdue_tasks = []
+        upcoming_tasks = []
+        for task in self.tasks:  # предполагается, что tasks - это список задач
+            if task.deadline < reference_date:
+                overdue_tasks.append(task)
+            elif task.deadline < (reference_date + datetime.timedelta(days=5)):  # Например, за 5 дней до дедлайна
+                upcoming_tasks.append(task)
+        return overdue_tasks, upcoming_tasks
+
+    def print_tasks_with_deadlines(self):
+        """ Выводит информацию о задачах с просроченными и предстоящими дедлайнами. """
+        overdue, upcoming = self.check_task_deadlines()
+        print(f"Документ {self.number_doc}:")
+
+        if overdue:
+            print("Просроченные задачи:")
+            for task in overdue:
+                print(f"- {task.code}: {task.tasks} до {task.deadline}")
+        if upcoming:
+            print("Предстоящие задачи:")
+            for task in upcoming:
+                print(f"- {task.code}: {task.tasks} до {task.deadline}")
+        if not overdue and not upcoming:
+            print("Нет задач с критическими сроками.")
+
+    def notify_about_deadlines(self):
+        """ Выводит уведомления о сроках по всем документам. """
+        for doc in self:
+            doc.print_tasks_with_deadlines()
+
 
 class DocumentType(Document):
-    """ Основной класс с документами """
+    """
+        Основной класс с документами
+        имеет все те же самые атрибуты, что и родительский класс, но тут еще добавлен атрибут с названиемм:
+        Тип документа.
+    """
     def __init__(self, number_doc: str | int,
                  correspondent: DomesticCorrespondent | ExternalCorrespondents = None,
                  task: Tasks = None, performers: Performers = None,
@@ -446,7 +540,11 @@ class DocumentType(Document):
 
 
 class Resolutions:
-    """ Резолюции """
+    """
+        Резолюции
+        Имеет такие атрибуты как:
+        Комментарий к изменению, Автор(Исполнитель), Дата создания.
+    """
 
     def __init__(self, commit: str, author: Performers,
                  date_of_creation: datetime.datetime | datetime.date | str = datetime.datetime.now().date()):
@@ -535,7 +633,11 @@ class Resolutions:
 
 
 class ExecutionController:
-    """ Контролер исполнения """
+    """
+        Контролер исполнения
+        Имеет такие атрибуты как:
+        Исполнитель.
+    """
 
     def __init__(self, performers: Performers = None):
         if isinstance(performers, Performers) or performers is None:

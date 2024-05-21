@@ -11,6 +11,24 @@ class DocumentManager:
         self.resolutions: dict[str, Resolutions] = {}
         self.correspondents: dict[str, ExternalCorrespondents | DomesticCorrespondent] = {}
 
+    def add_document(self, code: str, *args):
+        self.documents[code] = DocumentType(*args)
+
+    def add_performers(self, code: str, *args):
+        self.performers[code] = Performers(*args)
+
+    def add_task(self, code, *args):
+        self.tasks[code] = Tasks(*args)
+
+    def add_resolutions(self, code, *args):
+        self.resolutions[code] = Resolutions(*args)
+
+    def add_external_correspondents(self, code, *args):
+        self.correspondents[code] = ExternalCorrespondents(*args)
+
+    def add_domestic_correspondent(self, code, *args):
+        self.correspondents[code] = DomesticCorrespondent(*args)
+
     @staticmethod
     def serialize(document: DocumentType, resolution: Resolutions,
                   execution_controller: ExecutionController) -> None:
@@ -23,19 +41,19 @@ class DocumentManager:
     def deserialize() -> [Performers, Tasks, DomesticCorrespondent | ExternalCorrespondents,
                           DocumentType, ExecutionController, Resolutions]:
 
-        document = DocumentType.restore_class()
-        resolutions = Resolutions.restore_class()
-        controller = ExecutionController.restore_class()
+        doc = DocumentType.restore_class()
+        resol = Resolutions.restore_class()
+        cont = ExecutionController.restore_class()
         # print(document.__dict__)
-        performer = document.performers
-        task = document.tasks
-        correspondent = document.correspondent
+        perf = doc.performers
+        task = doc.tasks
+        corr = doc.correspondent
 
         # Настраиваем новую связь между исполнителем,
         # контролером и резолюциями
-        controller.performers = performer
-        resolutions.author = performer
-        return [performer, task, correspondent, document, controller, resolutions]
+        cont.performers = perf
+        resol.author = perf
+        return [perf, task, corr, doc, cont, resol]
 
 
 if __name__ == '__main__':

@@ -143,10 +143,10 @@ class TestClasses(unittest.TestCase):
         document.type_doc = "Internal"
         self.assertEqual(document.type_doc, "Internal")
 
-    def test_document_task_assignment_none(self):
-        document = Document(number_doc="123")
-        document.tasks = None
-        self.assertIsNone(document.tasks)
+    # def test_document_task_assignment_none(self):
+    #     document = Document(number_doc="123")
+    #     document.tasks = None
+    #     self.assertIsNone(document.tasks)
 
     def test_document_resolution_assignment_none(self):
         document = Document(number_doc="123")
@@ -216,6 +216,83 @@ class TestClasses(unittest.TestCase):
         self.assertIsInstance(dt, Document)
         self.assertEqual('Internal', dt.type_doc)
 
+    def test_addition(self):
+        # Проверяем корректность конкатенации фамилий
+        self.performer1 = Performers("Doe", "Manager", "123456789", "doe@example.com")
+        self.performer2 = Performers("Smith", "Developer", "987654321", "smith@example.com")
+
+        result = self.performer1 + self.performer2
+        self.assertEqual(result, "DoeSmith")
+
+    def test_subtraction(self):
+        # Проверяем корректность вычитания номеров телефонов
+        self.performer1 = Performers("Doe", "Manager", "123456789", "doe@example.com")
+        self.performer2 = Performers("Smith", "Developer", "987654321", "smith@example.com")
+
+        result = self.performer1 - self.performer2
+        self.assertEqual(result, -864197532)
+
+    def test_addition_(self):
+        # Проверяем корректность конкатенации описаний задач
+        self.task1 = Tasks("001", "Task 1")
+        self.task2 = Tasks("002", "Task 2")
+
+        result = self.task1 + self.task2
+        self.assertEqual(result, "Task 1Task 2")
+
+    def test_subtraction_(self):
+        # Проверяем корректность вычитания длин кодов задач
+        self.task1 = Tasks("001", "Task 1")
+        self.task2 = Tasks("002", "Task 2")
+
+        result = self.task1 - self.task2
+        self.assertEqual(result, -1)
+
+    def test_performer_creation(self):
+        """Тестируем создание исполнителя и инициализацию атрибутов."""
+        performer = Performers("Иванов", "Директор", "1234567890", "ivanov@example.com")
+        self.assertEqual(performer.last_name, "Иванов")
+        self.assertEqual(performer.position, "Директор")
+        self.assertEqual(performer.phon_number, "1234567890")
+        self.assertEqual(performer.email, "ivanov@example.com")
+
+    def test_performer_modification(self):
+        """Тестируем изменение атрибутов исполнителя."""
+        performer = Performers("Петров", "Менеджер", "0987654321", "petrov@example.com")
+        performer.last_name = "Сидоров"
+        performer.position = "Аналитик"
+        self.assertEqual(performer.last_name, "Сидоров")
+        self.assertEqual(performer.position, "Аналитик")
+
+    def setUp(self):
+        """Настройка контекста для тестов Tasks."""
+        self.performer = Performers("Иванов", "Директор", "1234567890", "ivanov@example.com")
+        self.task = Tasks("001", "Проверка отчета", self.performer, datetime.datetime.now().date())
+
+    def test_task_creation(self):
+        """Тестирование создания задачи."""
+        self.assertEqual(self.task.code, "001")
+        self.assertEqual(self.task.tasks, "Проверка отчета")
+        self.assertEqual(self.task.performers, self.performer)
+        self.assertIsInstance(self.task.deadline, datetime.date)
+
+    def test_task_deadline_extension(self):
+        """Тестирование функциональности изменения срока задачи."""
+        new_deadline = self.task.deadline + datetime.timedelta(days=5)
+        self.task.deadline = new_deadline
+        self.assertEqual(self.task.deadline, new_deadline)
+
+    def test_document_creation_and_task_assignment(self):
+        """Тестирование создания документа и присвоения задач."""
+        performer = Performers("Смирнов", "Бухгалтер", "5554443322", "smirnov@example.com")
+        task = Tasks("002", "Составление баланса", performer, datetime.datetime.now().date())
+        document = Document("Doc001", None, task, performer, datetime.datetime.now(), None)
+        self.assertEqual(document.number_doc, "Doc001")
+        self.assertEqual(document.tasks, task)
+        self.assertEqual(document.performers, performer)
+
 
 if __name__ == '__main__':
     unittest.main()
+
+

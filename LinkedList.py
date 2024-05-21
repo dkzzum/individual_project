@@ -60,11 +60,11 @@ class LinkedList:
 
         node: Node = self.head
         n = 0
-        while node and node.next and n != k:
+        while node and node.next and n != index:
             node = node.next
             n += 1
 
-        return node if n == k else None
+        return node if n == index else None
 
     # Метод вставляющий новый эл. по указанному индексу
     def insert(self, k: int, data):
