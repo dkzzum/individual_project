@@ -699,4 +699,4 @@ class ExecutionController:
 
 
 if __name__ == '__main__':
-    pass
+    print(2 // 10)
